@@ -11,27 +11,27 @@ function AboutCard() {
             Привет, я <span className="purple">Алексеев Максим </span>
             с <span className="purple"> города Казань, Россия.</span>
             <br />
-            Охуенный чел
+            Текст
             <br />
             <br />
-            Кроме программирования я люблю
+            Текст
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Сходить с ума
+              <ImPointRight /> Текст
             </li>
             <li className="about-activity">
-              <ImPointRight /> Кайфовать
+              <ImPointRight /> Текст
             </li>
             <li className="about-activity">
-              <ImPointRight /> Кидать снюс
+              <ImPointRight /> Текст
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Утром час... в обед час... вечером час.."{" "}
+            "Текст"{" "}
           </p>
-          <footer className="blockquote-footer">Мыслитель</footer>
+          <footer className="blockquote-footer">Текст</footer>
         </blockquote>
       </Card.Body>
     </Card>
