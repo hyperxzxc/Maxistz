@@ -1,17 +1,17 @@
 import {defineConfig} from 'vite';
 import react from '@vitejs/plugin-react';
 import {VitePWA} from "vite-plugin-pwa";
-import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+import {ViteImageOptimizer} from 'vite-plugin-image-optimizer';
 
 // https://vitejs.dev/config/
 const PWAConfig = {
-    registerType:'autoUpdate',
-    outDir:'dist',
-    manifest:{
-        name:"React-vite-app",
-        short_name:"react-vite-app",
-        description:"I am a simple vite app",
-        theme_color:'#181818',
+    registerType: 'autoUpdate',
+    outDir: 'dist',
+    manifest: {
+        name: "React-vite-app",
+        short_name: "react-vite-app",
+        description: "I am a simple vite app",
+        theme_color: '#181818',
         icons: [
             {
                 src: 'assets/images/android-chrome-192x192.png',
@@ -55,7 +55,7 @@ const ImageOptimizerConfig = {
             {
                 name: 'addAttributesToSVGElement',
                 params: {
-                    attributes: [{ xmlns: 'http://www.w3.org/2000/svg' }],
+                    attributes: [{xmlns: 'http://www.w3.org/2000/svg'}],
                 },
             },
         ],
@@ -92,8 +92,7 @@ const ImageOptimizerConfig = {
 };
 export default defineConfig({
     base: './',
-    server: {
-    },
+    server: {},
     plugins: [
         react(),
         VitePWA(PWAConfig),

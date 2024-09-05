@@ -71,12 +71,12 @@ function Matrix() {
                 last_t = t;
                 if (waves.size < max_waves && random_bool(0.5)) {
                     // waves.set(wave_id, { r: random_int(num_rows), c: random_int(num_cols) });
-                    waves.set(wave_id, { r: 0, c: random_int(num_cols) });
+                    waves.set(wave_id, {r: 0, c: random_int(num_cols)});
                     wave_id++;
                 }
                 const to_be_removed = [];
                 for (let [k, wave] of waves) {
-                    const { r, c } = wave;
+                    const {r, c} = wave;
                     // prev_cell.classList.remove("fade");
                     // cell.textContent = choose_random(char_set);
                     if (wave.r >= num_rows) {

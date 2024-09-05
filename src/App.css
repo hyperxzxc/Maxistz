@@ -38,8 +38,10 @@
 }
 
 #div-matrix {
-  color: #800026;
+  position: fixed !important;
+  color: #5a011d;
   font-family: monospace;
+  width: 100%;
 }
 .cell {
   display: inline-block;
@@ -56,7 +58,7 @@
   animation: 3s fade_cell;
 }
 .brighter {
-  color: #cf0f3a;
+  color: #8a0022;
 }
 
 @keyframes fade_cell {
