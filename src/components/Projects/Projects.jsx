@@ -10,7 +10,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Мои недавние <strong className="purple">работы </strong>
+          Мои недавние <strong className="mainColor">работы </strong>
         </h1>
         <p style={{ color: "white" }}>
           Здесь представлены мои успешные работы

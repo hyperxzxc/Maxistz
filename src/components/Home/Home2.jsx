@@ -11,33 +11,33 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              О <span className="purple"> СЕБЕ </span>
+              О <span className="mainColor"> СЕБЕ </span>
             </h1>
             <p className="home-about-body">
               Я люблю писать код и делать красивые сайты, а так же автоматизировать бизнес
               <br/>
               <br/>Мой стэк:
               <i>
-                <b className="purple"> PHP, Javascript, MySQL. </b>
+                <b className="mainColor"> PHP, Javascript, MySQL. </b>
               </i>
               <br/>
               <br/>
               В мой перечень услуг входит: &nbsp;
               <br/>
               <i>
-                <b className="purple">
+                <b className="mainColor">
                   - Создание красивых landing page
                 </b>
                 <br/>
-                <b className="purple">
+                <b className="mainColor">
                   - Телеграм боты и mini apps
                 </b>
                 <br/>
-                <b className="purple">
+                <b className="mainColor">
                   - Интеграции с CRM
                 </b>
                 <br/>
-                <b className="purple">
+                <b className="mainColor">
                   - Доработка и улучшение различных web проектов
                 </b>
               </i>
@@ -45,16 +45,16 @@ function Home2() {
               <br/>
               Может тут что-то будет
               <br/>
-              Бим бим <b className="purple">бам бам</b> и
+              Бим бим <b className="mainColor">бам бам</b> и
               <i>
-                <b className="purple">
+                <b className="mainColor">
                   {" "}
                   текст
                 </b>
               </i>
               &nbsp; оп
               <i>
-                <b className="purple"> еще текст</b>
+                <b className="mainColor"> еще текст</b>
               </i>
             </p>
           </Col>
@@ -64,7 +64,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Я ТУТ</h1>
             <p>
-              Напишите <span className="purple">пжж </span> мне
+              Напишите <span className="mainColor">пжж </span> мне
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

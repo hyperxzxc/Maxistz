@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+#div-matrix {
+  color: #800026;
+  font-family: monospace;
+}
+.cell {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  /*     background-color: green; */
+  /*   border: 1px solid black; */
+  opacity: 0%;
+  text-align: center;
+  /*   vertical-align: middle; */
+  line-height: 1em;
+}
+.fade {
+  animation: 3s fade_cell;
+}
+.brighter {
+  color: #cf0f3a;
+}
+
+@keyframes fade_cell {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}

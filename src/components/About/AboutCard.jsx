@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Привет, я <span className="purple">Алексеев Максим </span>
-            с <span className="purple"> города Казань, Россия.</span>
+            Привет, я <span className="mainColor">Алексеев Максим </span>
+            с <span className="mainColor"> города Казань, Россия.</span>
             <br />
             Текст
             <br />
@@ -28,7 +28,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(166,29,62)" }}>
             "Текст"{" "}
           </p>
           <footer className="blockquote-footer">Текст</footer>
