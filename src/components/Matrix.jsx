@@ -45,16 +45,16 @@ function Matrix() {
             // for (let x = 0x4e00; x < 0x4e20; x++) {
             //   char_set.push(String.fromCodePoint([x]));
             // }
-            console.log(char_set, char_set.length);
+            //console.log(char_set, char_set.length);
             const div_matrix = document.querySelector("#div-matrix");
-            console.log("div_matrix.style.width", div_matrix.style.width);
+            //console.log("div_matrix.style.width", div_matrix.style.width);
             const div_matrix_rect = div_matrix.getBoundingClientRect();
-            console.log("div_matrix.getBoundingClientRect", div_matrix_rect);
+            //console.log("div_matrix.getBoundingClientRect", div_matrix_rect);
 
             const num_rows = 32;
             const _num_cols = Math.floor(div_matrix_rect.width / 16); // 16px ~ 1em // 64; // 64;
             const num_cols = Math.max(Math.min(_num_cols, 64), 1);
-            console.log("num_rows", num_rows, "num_cols", num_cols);
+            //console.log("num_rows", num_rows, "num_cols", num_cols);
             // const num_instances = 10;
             // const step_size = 4;
             const max_waves = Math.floor((num_cols * num_cols) / 2); // 64 * 10;
