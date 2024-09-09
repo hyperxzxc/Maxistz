@@ -8,18 +8,18 @@ const PWAConfig = {
     registerType: 'autoUpdate',
     outDir: 'dist',
     manifest: {
-        name: "React-vite-app",
-        short_name: "react-vite-app",
-        description: "I am a simple vite app",
+        name: "Maxistz",
+        short_name: "maxistz",
+        description: "Портфолио",
         theme_color: '#181818',
         icons: [
             {
-                src: 'assets/images/android-chrome-192x192.png',
+                src: 'assets/android-chrome-192x192.png',
                 sizes: '192x192',
                 type: 'image/png',
             },
             {
-                src: 'assets/images/android-chrome-512x512.png',
+                src: 'assets/android-chrome-512x512.png',
                 sizes: '512x512',
                 type: 'image/png',
             }
